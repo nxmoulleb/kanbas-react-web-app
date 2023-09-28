@@ -1,0 +1,65 @@
+.p-2 {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-subtitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: gray;
+}
+
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: gray;
+}
+
+#published-courses {
+    margin-left: 20px;
+}
+
+
+.course-1-color {
+    color: red;
+}
+
+.course-1-color-bg {
+    background-color: red;
+}
+
+.course-2-color {
+    color: skyblue;
+}
+
+.course-2-color-bg {
+    background-color: skyblue;
+}
+
+.course-3-color {
+    color: blueviolet;
+}
+
+.course-3-color-bg {
+    background-color: blueviolet;
+}
+
+.course-4-color {
+    color: gray;
+}
+
+.course-4-color-bg {
+    background-color: gray;
+}

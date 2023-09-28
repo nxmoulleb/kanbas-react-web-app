@@ -1,0 +1,67 @@
+#override {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: darkslategrey;
+    margin:0;
+    padding:0;
+    height:100%;
+    border:none
+}
+
+html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    border:none
+ }
+
+body {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: darkslategrey;
+}
+
+table {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    width: 80px;
+    background-color: black;
+    padding: 0;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navigation li {
+    padding: 10px;
+}
+
+.navigation i {
+    margin: 10px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.selected {
+    background-color: white;
+}
+
+.selected a{
+    color: red;
+}
+
+.selected i{
+    color: gainsboro;
+}

@@ -1,0 +1,56 @@
+#prof_selected {
+    border-color: black;
+}
+
+#prof_selected a {
+    color: black;
+}
+
+.prof_content {
+    padding-left: 50px;
+}
+
+.prof_navigation {
+    width: 150px;
+    padding-left: 15px;
+}
+
+.prof_navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.prof_navigation li {
+    margin-bottom: 20px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-color: white;
+    padding-left: 7px;
+}
+
+.prof_navigation a {
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a {
+    color:red;
+    text-decoration: none !important;
+}
+
+#bottom-edit-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#link-override {
+    color:red;
+}
+
+#links-edit-header {
+    text-align: center;
+}
