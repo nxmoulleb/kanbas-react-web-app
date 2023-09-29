@@ -1,0 +1,11 @@
+#ul-override {
+    border-radius: 0px;
+}
+
+#ul-override a {
+    text-decoration: none;
+}
+
+#assignment {
+    border-left: solid 2px green;
+}

@@ -1,7 +1,6 @@
 #override {
     font-family: 'Roboto';
     font-size: 15px;
-    color: darkslategrey;
     margin:0;
     padding:0;
     height:100%;
@@ -52,6 +51,12 @@ table {
     color: white;
     text-decoration: none;
     font-size: 15px;
+
+}
+.navigation a:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .selected {
@@ -62,6 +67,47 @@ table {
     color: red;
 }
 
+.selected a:hover{
+    color: red;
+}
+
 .selected i{
     color: gainsboro;
+}
+
+.page_navigation {
+    width: 150px;
+}
+
+.page_navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.page_navigation li {
+    margin-bottom: 20px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-color: white;
+    padding-left: 7px;
+}
+
+.page_navigation a {
+    color: red;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#page_nav_selected {
+    border-color: black;
+}
+
+#page_nav_selected a {
+    color: black;
+}
+
+.kanbas-page-div {
+    margin-left: 15px;
 }
