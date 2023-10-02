@@ -7,6 +7,18 @@
     border:none
 }
 
+#ul-override {
+    border-radius: 0px;
+}
+
+#ul-override a {
+    text-decoration: none;
+}
+
+#ul-green-left-border {
+    border-left: solid 2px green;
+}
+
 html,body{
     margin:0;
     padding:0;
@@ -110,4 +122,13 @@ table {
 
 .kanbas-page-div {
     margin-left: 15px;
+}
+
+#slides-link{
+    color: red;
+    text-decoration: none;
+}
+
+#slides-link:hover{
+    color: red;
 }
