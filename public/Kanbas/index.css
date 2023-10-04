@@ -39,7 +39,7 @@ table {
 }
 
 .navigation {
-    width: 80px;
+    width: 70px;
     background-color: black;
     padding: 0;
 }
@@ -52,11 +52,11 @@ table {
 }
 
 .navigation li {
-    padding: 10px;
+    padding: 5px;
 }
 
 .navigation i {
-    margin: 10px;
+    margin: 5px;
 }
 
 .navigation a {
@@ -88,7 +88,7 @@ table {
 }
 
 .page_navigation {
-    width: 150px;
+    width: 195px;
 }
 
 .page_navigation ul {
@@ -103,7 +103,7 @@ table {
     border-left-width: 2px;
     border-left-style: solid;
     border-color: white;
-    padding-left: 7px;
+    padding-left: 9px;
 }
 
 .page_navigation a {
