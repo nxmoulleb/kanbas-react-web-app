@@ -5,16 +5,16 @@ import Courses from "./Courses";
 
 function Kanbas() {
    return (
-     <div className="d-flex">
-       <div>
+     <div id='override' className="d-flex">
+       <div id='nav'>
          <KanbasNavigation/>
        </div>
-       <div>
+       <div id='page_content'>
        <Routes>
           <Route path="/" element={<Navigate to="Dashboard" />} />
           <Route path="Account" element={<h1>Account</h1>} />
           <Route path="Dashboard" element={<Dashboard />} />
-          <Route path="Courses/:courseId/*" element={<h1>Courses</h1>} />
+          <Route path="Courses/:courseId/*" element={<Courses/>} />
         </Routes>
        </div>
      </div>

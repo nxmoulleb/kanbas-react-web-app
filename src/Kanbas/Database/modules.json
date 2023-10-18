@@ -16,5 +16,41 @@
       "name": "Nozzle Design",
       "description": "Principles of rocket nozzle design and performance optimization.",
       "course": "RS101"
+    },
+    {
+      "_id": "M101",
+      "name": "Introduction to Flow Analysis",
+      "description": "Basic principles flow and how to analysis it or something idk.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M102",
+      "name": "Aerodynamics Review",
+      "description": "Understanding how aerodynamic cows are vs jeeps.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M103",
+      "name": "Heating Analysis",
+      "description": "Learn how hot sth is by putting ur hand on it. If it hurts its how.",
+      "course": "RS102"
+    },
+    {
+      "_id": "M101",
+      "name": "Intro to structural design",
+      "description": "Lets learn how to design things, but make it structural.",
+      "course": "RS103"
+    },
+    {
+      "_id": "M102",
+      "name": "Orbital Calculations and Exam Prep",
+      "description": "Learning how orbit works and preparing for the exam.",
+      "course": "RS103"
+    },
+    {
+      "_id": "M103",
+      "name": "Systems Engineering EXAM",
+      "description": "Exam review on orbital calculations and strutural design, followed by the actual exam.",
+      "course": "RS103"
     }
 ]
