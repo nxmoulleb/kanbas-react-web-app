@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate, useParams, Link } from "react-router-dom";
 import db from "../../../Database";
+import { FaEllipsisV, FaCheckCircle } from 'react-icons/fa';
 
 
 function AssignmentEditor() {
@@ -17,16 +18,26 @@ function AssignmentEditor() {
   };
   return (
     <div>
-      <h2>Assignment Name</h2>
+      <div class='float-end'>
+        <p style={{color: '#77cf89', display:'inline'}}><FaCheckCircle/>Published </p>
+        <button class='btn btn-secondary'><FaEllipsisV/></button>
+      </div>
+      <br/>
+      <br/>
+      <hr/>
+      <h3>Assignment Name</h3>
       <input value={assignment.title}
              className="form-control mb-2" />
-      <Link to={`/Kanbas/Courses/${courseId}/Assignments`}
-            className="btn btn-danger">
-        Cancel
-      </Link>
-      <button onClick={handleSave} className="btn btn-success me-2">
-        Save
-      </button>
+      <hr/>
+      <div class='float-end'>
+        <Link to={`/Kanbas/Courses/${courseId}/Assignments`}
+              className="btn btn-secondary">
+          Cancel
+        </Link>
+        <button onClick={handleSave} className="btn btn-danger me-2">
+          Save
+        </button>
+      </div>
     </div>
   );
 }

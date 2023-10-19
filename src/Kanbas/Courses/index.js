@@ -5,36 +5,44 @@ import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
 import AssignmentEditor from "./Assignments/AssignmentEditor";
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './index.css'
+import '../index.css'
 
 function Courses() {
   const { courseId } = useParams();
   const course = db.courses.find((course) => course._id === courseId);
   return (
-    <div>
-      <h1>Course {course.name}</h1>
-      <CourseNavigation />
-      <div>
-        <div
-          className="overflow-y-scroll position-fixed bottom-0 end-0"
-          style={{
-            left: "320px",
-            top: "50px",
-          }}
-        >
-          <Routes>
-            <Route path="/" element={<Navigate to="Home" />} />
-            <Route path="Home" element={<Home/>} />
-            <Route path="Modules" element={<Modules/>} />
-            <Route path="Assignments" element={<Assignments/>} />
-            <Route
-              path="Assignments/:assignmentId"
-              element={<AssignmentEditor/>}
-            />
-            <Route path="Grades" element={<h1>Grades</h1>} />
-          </Routes>
-        </div>
-      </div>
-    </div>
+    <Container>
+      <Row >
+          <Breadcrumb style={{width: '50%'}}>
+            <Breadcrumb.Item href="#">{course.name}</Breadcrumb.Item>
+            <Breadcrumb.Item id='secondary-breadcrumb'>Home</Breadcrumb.Item>
+          </Breadcrumb>
+      </Row>
+      <hr/>
+      <Row>
+        <Col xs='2'> <CourseNavigation /></Col>
+        <Col lg='auto' style={{width: '75%'}}>
+          <div>
+            <Routes>
+              <Route path="/" element={<Navigate to="Home" />} />
+              <Route path="Home" element={<Home/>} />
+              <Route path="Modules" element={<Modules/>} />
+              <Route path="Assignments" element={<Assignments/>} />
+              <Route
+                path="Assignments/:assignmentId"
+                element={<AssignmentEditor/>}
+              />
+              <Route path="Grades" element={<h1>Grades</h1>} />
+            </Routes>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
 export default Courses;

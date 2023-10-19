@@ -7,7 +7,7 @@ import {Routes, Route, Navigate} from "react-router";
 function App() {
    return (
       <HashRouter>
-         <div>
+         <div style={{height: '100%'}}>
             <Routes>
                <Route path="/hello"    element={<HelloWorld/>}/>
                <Route path="/Labs/*"   element={<Labs/>}/>

@@ -1,0 +1,20 @@
+.list-group{
+    border-radius: 0px;
+}
+
+.course-nav a {
+    border: None;
+    border-color: white;
+    color: red;
+    border-left: 2px solid white;
+}
+
+.active {
+    border: none;
+}
+
+.course-nav a.active {
+    color: black;
+    background-color: white;
+    border-left: 2px solid black;
+}

@@ -1,3 +1,6 @@
+#root {
+    height: 100%;
+}
 #override {
     font-family: 'Roboto';
     font-size: 15px;
@@ -32,59 +35,11 @@ body {
     color: darkslategrey;
 }
 
-div {
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
-
 #page_content {
     margin-left: 10px;
     width:100%;
 }
 
-.page_navigation {
-    width: 195px;
-}
-
-.page_navigation ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-.page_navigation li {
-    margin-bottom: 20px;
-    border-left-width: 2px;
-    border-left-style: solid;
-    border-color: white;
-    padding-left: 9px;
-}
-
-.page_navigation a {
-    color: red;
+a {
     text-decoration: none;
-    font-size: 15px;
-}
-
-#page_nav_selected {
-    border-color: black;
-}
-
-#page_nav_selected a {
-    color: black;
-}
-
-.kanbas-page-div {
-    margin-left: 15px;
-}
-
-#slides-link{
-    color: red;
-    text-decoration: none;
-}
-
-#slides-link:hover{
-    color: red;
 }

@@ -1,0 +1,30 @@
+div .container {
+    margin-left: none;
+    margin-right: none;
+    margin: 0;
+}
+
+.breadcrumb-item a {
+    color: red;
+}
+
+.col {
+    padding: 0;
+}
+
+.col-lg-auto {
+    width:65%;
+}
+
+#slides-link{
+    color: red;
+    text-decoration: none;
+}
+
+#slides-link:hover{
+    color: red;
+}
+
+#secondary-breadcrumb {
+    color: black;
+}

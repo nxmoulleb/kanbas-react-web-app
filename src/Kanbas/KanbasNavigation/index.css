@@ -21,7 +21,7 @@
 }
 
 .active {
-    background-color: white;
+    border: none;
 }
 
 .navigation a {
