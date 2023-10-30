@@ -17,7 +17,7 @@ function Courses() {
   const course = db.courses.find((course) => course._id === courseId);
   return (
     <Container>
-      <Row >
+      <Row>
           <Breadcrumb style={{width: '50%'}}>
             <Breadcrumb.Item href="#">{course.name}</Breadcrumb.Item>
             <Breadcrumb.Item id='secondary-breadcrumb'>Home</Breadcrumb.Item>
