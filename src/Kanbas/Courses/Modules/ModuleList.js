@@ -77,8 +77,8 @@ function ModuleList() {
         {modules
           .filter((module) => module.course === courseId)
           .map((module, index) => (
-            <div key={index}>
-              <li
+            <div>
+              <li key={index}
                 class="list-group-item list-group-item-secondary"
                 id="ul-green-left-border"
               >
@@ -102,7 +102,7 @@ function ModuleList() {
                   </div>
                 </div>
               </li>
-              <li class="list-group-item list-group-item">
+              <li class="list-group-item">
                 <div class="d-flex w-100 justify-content-between">
                   <div>
                     {module.description}
