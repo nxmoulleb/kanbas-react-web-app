@@ -60,7 +60,7 @@ function Dashboard({
             onChange={(e) => setCourse({ ...course, endDate: e.target.value })}
           />
         </div>
-        <div class='pull-right'> 
+        <div className='pull-right'> 
           <button className="btn btn-success" onClick={addNewCourse}>
             Add
           </button>
@@ -116,13 +116,6 @@ function Dashboard({
             </Link>
           ))}
         </div>
-        {/* <div className="list-group">
-          {courses.map((course) => (
-            <Link key={course._id} to={`/Kanbas/Courses/${course._id}`} className="list-group-item">
-              {course.name}
-            </Link>
-          ))}
-        </div> */}
       </div>
     </div>
   );
