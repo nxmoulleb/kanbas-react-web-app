@@ -112,7 +112,7 @@ function UserTable() {
         <tbody>
           {users.map((user) => (
             <tr key={user._id}>
-              <a href={`/#/project/account/${user._id}`}><td>{user.username}</td></a>
+              <td><a href={`/#/project/account/${user._id}`}>{user.username}</a></td>
               <td>{user.firstName}</td>
               <td>{user.lastName}</td>
               <td>
